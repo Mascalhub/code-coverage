@@ -6,3 +6,4 @@ pyyaml==6.0.2
 tenacity==9.0.0
 tqdm==4.67.0
 zstandard==0.23.0
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
