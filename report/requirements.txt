@@ -2,3 +2,4 @@ python-magic==0.4.27
 taskcluster==74.0.0
 tenacity==9.0.0
 zstandard==0.23.0
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
