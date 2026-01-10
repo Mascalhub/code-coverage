@@ -1,6 +1,7 @@
-aiohttp==3.10.10
+aiohttp==3.13.3
 async-timeout==4.0.3
 pytz==2024.2
 sentry-sdk==1.16.0
 structlog==24.4.0
 taskcluster==74.0.0
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
