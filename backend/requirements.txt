@@ -11,3 +11,4 @@ pytoml==0.1.21
 redis==5.2.0
 swagger-ui-bundle==1.1.0
 zstandard==0.23.0
+protobuf>=5.29.6 # not directly required, pinned by Snyk to avoid a vulnerability
